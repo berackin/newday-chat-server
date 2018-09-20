@@ -1,0 +1,26 @@
+{
+  "name": "newday-chat-server",
+  "version": "1.0.0",
+  "description": "Socket Server base for the NewDay Chat application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berackin/newday-chat-server.git"
+  },
+  "author": "Be Rack In",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berackin/newday-chat-server/issues"
+  },
+  "homepage": "https://github.com/berackin/newday-chat-server#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
